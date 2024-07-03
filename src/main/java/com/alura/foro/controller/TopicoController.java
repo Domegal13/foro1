@@ -1,18 +1,22 @@
 package com.alura.foro.controller;
 
+import com.alura.foro.medico.DatosRegistroTopico;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+
+
 @RestController
 @RequestMapping("/topicos")
-public class topicoController {
+public class TopicoController {
 
     @PostMapping
-    public void agregarTopico(@RequestBody String parametro){
+    public void registrarTopico(@RequestBody DatosRegistroTopico datosRegistroTopico){
         System.out.println("El request llega correctamente");
-        System.out.println(parametro);
-        System.out.println(parametro);
+        System.out.println(datosRegistroTopico);
+
+
     }
 }
