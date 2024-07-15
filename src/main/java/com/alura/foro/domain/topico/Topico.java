@@ -1,7 +1,7 @@
-package com.alura.foro.topico;
+package com.alura.foro.domain.topico;
 
 
-import com.alura.foro.curso.Curso;
+import com.alura.foro.domain.curso.Curso;
 import jakarta.persistence.*;
 import lombok.*;
 

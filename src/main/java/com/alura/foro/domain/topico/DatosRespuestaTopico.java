@@ -1,6 +1,4 @@
-package com.alura.foro.topico;
-
-import com.alura.foro.curso.Curso;
+package com.alura.foro.domain.topico;
 
 public record DatosRespuestaTopico(
         Long id,
