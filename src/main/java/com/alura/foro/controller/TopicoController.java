@@ -1,6 +1,6 @@
 package com.alura.foro.controller;
 
-import com.alura.foro.topico.*;
+import com.alura.foro.domain.topico.*;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import java.net.URI;
-import java.util.List;
 
 
 @RestController

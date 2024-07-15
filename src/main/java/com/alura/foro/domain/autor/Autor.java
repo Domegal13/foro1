@@ -1,4 +1,4 @@
-package com.alura.foro.autor;
+package com.alura.foro.domain.autor;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

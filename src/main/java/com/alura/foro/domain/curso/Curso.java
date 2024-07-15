@@ -1,4 +1,4 @@
-package com.alura.foro.curso;
+package com.alura.foro.domain.curso;
 
 public enum Curso {
     CSS,
